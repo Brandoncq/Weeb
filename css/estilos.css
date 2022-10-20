@@ -18,7 +18,7 @@ body{
 }
 header{
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(161, 140, 209, 0.4) 0%, rgba(251, 194, 235, 0.4) 100%),url(../img/ushio.jpg);
+    background-image: linear-gradient(to top, rgba(161, 140, 209, 0.503) 0%, rgba(251, 194, 235, 0.501) 100%),url(../img/ushio.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -62,7 +62,7 @@ header{
 .spread{
     transform: translate(0);
 }
-.menu-navegacion{
+.menu-navegacion a{
     color: #fff;
     text-decoration: none;
 }
@@ -87,7 +87,7 @@ header{
     align-items: center;
     flex-wrap: wrap;
 }
-.contenedor-servicio{
+.contenedor-servicio img{
     width: 40%;
 }
 .checklist-servicio{
@@ -159,4 +159,82 @@ header{
     width: 40px;
     height: 40px;
     cursor: pointer;
+}
+.experts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cont-expert{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cont-expert img{
+    width: 80%;
+    display: block;
+    margin:0 auto;
+}
+.n-expert{
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 400;
+}
+.footer{
+    background: #9f8ad9;
+    padding-bottom: 0.1px;
+
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+
+}
+.contact-us{
+    width: 40%;
+    color: #fff;
+}
+.brand{
+    font-weight: 500;
+    font-size: 40px;
+}
+.brand+p{
+    font-weight: 500;
+}
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+.social-media-icon:hover{
+    background: #fff;
+    color: #764ba2;
+}
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 2px;
+    background: #fff;
+    margin-bottom: 60px;
 }
