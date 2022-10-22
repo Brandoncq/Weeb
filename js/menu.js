@@ -1,9 +1,6 @@
 const menu = document.querySelector('.menu');
 const menunavegacion = document.querySelector('.menu-navegacion');
 
-//console.log(menunavegacion)
-//console.log(menu)
-
 menu.addEventListener('click', ()=>{
     menunavegacion.classList.toggle("spread")
 })
